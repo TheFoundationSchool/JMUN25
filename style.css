@@ -59,6 +59,7 @@ footer {
     text-align: center;
     padding: 5px;
     bottom: 0;
+    overflow-x: hidden;
 }
 html {
   scroll-behavior: smooth;
