@@ -1,3 +1,19 @@
+.title{
+    color: black;
+}
+.wrapper{
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+    object-fit: cover;
+    
+}
+section{
+    transform-style: preserve-3d;
+    position:relative;
+    display: flex;
+    justify-content: center;
+}
 p {
     font-family: "Calibri";
 }
