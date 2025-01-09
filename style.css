@@ -13,7 +13,25 @@ section{
     position:relative;
     display: flex;
     justify-content: center;
+    align-items: center;
+    z-index: -1;
+    height: 100%;
 }
+
+.background{
+    transform: translateZ(-10px) scale(2);
+}
+.foreground{
+    
+}
+.background,
+.foreground{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
 p {
     font-family: "Calibri";
 }
